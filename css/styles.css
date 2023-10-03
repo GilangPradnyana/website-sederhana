@@ -3,6 +3,7 @@
 body {
   font: 18px/36px 'Montserrat';
   background-color: #ddd;
+  background-image: url(../img/background.png);
 }
 /* Style utama */
 .container {
@@ -53,7 +54,7 @@ header li a:hover, header li:hover {
 }
 
 /* Article */
-article {
+article h2, article .credit, article p {
   padding: 10px;
 }
 /* title artile */
