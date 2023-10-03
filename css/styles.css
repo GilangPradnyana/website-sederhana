@@ -41,3 +41,13 @@ header li a:hover, header li:hover {
   background-color: lightskyblue;
   color: salmon
 }
+
+/* img */
+.img {
+  background-image: url(../img/computer.png);
+  height: 390px ;
+  background-size: cover;
+  background-position: 0 -70px ;
+  border-top: 5px solid salmon;
+  border-bottom: 5px solid lightskyblue;
+}
