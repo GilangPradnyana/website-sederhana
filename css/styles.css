@@ -1,3 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Montserrat&family=Oswald&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Montserrat&family=Oswald&family=Raleway:wght@200&family=Roboto+Condensed&display=swap');
 
+body {
+  font: 18px/36px 'Montserrat';
+  background-color: #ddd;
+}
 /* Style utama */
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: white;
+}
+/* Header */
+header {
+  padding: 10px;
+}
+header h1 {
+  font-size: 40px;
+  font-weight: 1000;
+  padding-top:5px ;
+}
+/* Nav */
+header li a {
+  text-decoration: none;
+  font-weight: 600px;
+  font-size: 15px;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  transition: 500ms ease;
+}
+header li {
+  display: inline-block;
+  margin: 40px 7px 0px 0px ;
+  border-radius: 5px;
+  background-color: salmon;
+  transition: 500ms ease;
+}
+header li a:hover, header li:hover {
+  transform: scale(1);
+  background-color: lightskyblue;
+  color: salmon
+}
