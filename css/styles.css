@@ -6,6 +6,20 @@ body {
   background-image: url(../img/background.png);
 }
 /* Style utama */
+
+/* topbar */
+.top-bar {
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  opacity: .70;
+  z-index: 2;
+}
+
+
 .container {
   width: 960px;
   margin: 50px  auto;
