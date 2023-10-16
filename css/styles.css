@@ -8,9 +8,23 @@ body {
 /* Style utama */
 .container {
   width: 960px;
-  margin: auto;
+  margin: 50px  auto;
   background-color: white;
+  position: relative;
 }
+
+/* ribbon */
+.ribbon {
+  background-image: url(../img/ribbon-png-808.png);
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  text-indent: -999999px;
+  position: absolute;
+  top: -12px;
+  right: -10px;
+}
+
 /* Header */
 header {
   padding: 10px;
