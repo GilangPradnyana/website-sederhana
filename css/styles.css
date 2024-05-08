@@ -67,7 +67,7 @@ header li {
 }
 header li a:hover, header li:hover {
   transform: scale(1);
-  background-color: lightskyblue;
+  background-color: green;
   color: salmon
 }
 
