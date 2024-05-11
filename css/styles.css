@@ -7,10 +7,6 @@ body {
 }
 /* Style utama */
 
-/* topbar */
-
-
-
 .container {
   width: 960px;
   margin: 50px  auto;
@@ -55,11 +51,12 @@ header li {
   border-radius: 5px;
   background-color: salmon;
   transition: 500ms ease;
+  opacity: .60;
 }
 header li a:hover, header li:hover {
   transform: scale(1);
-  background-color: green;
-  color: salmon
+  background-color: salmon;
+  opacity: 1;
 }
 
 /* img */
